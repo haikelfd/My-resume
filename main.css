@@ -1,0 +1,169 @@
+
+ul {
+    list-style-type: none;   margin: 0;
+    padding: 10;
+    overflow: hidden;
+   background-color: rgb(0, 46, 77);
+    font-family: 'Changa', sans-serif;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+  }
+  .icon{
+     margin: 10;
+    padding: 13px 12px;
+    float: right;
+  }
+  li {
+    float: left;
+  }
+  li a:hover {
+    background-color: rgb(0, 138, 230);
+  }
+  .title1{
+   width:100%;
+   margin:0px;
+   padding-top:30px;
+   text-align:center;
+   background-color: rgb(0, 138, 230);
+    color: rgb(230, 237, 235);
+   border-bottom-right-radius: 90px;
+   border-bottom-left-radius: 90px;
+
+  }
+  .part1{
+   width: 100%;
+   background-color: rgb(230, 237, 235);
+   text-align:center;
+   font-family: 'Changa', sans-serif;
+   border-top-left-radius: 40px; 
+   border-top-right-radius: 40px;
+  }
+  .mypic{
+   width:160px;
+   height:160px;
+   margin-top:15px;
+   border-radius: 50%;
+  
+  }
+  .pic2{
+    width:140px;
+    margin-bottom:2px;
+    margin-left:2px;
+    float: Middle; 
+  }
+  .pic3{
+    width:150px;
+    margin-bottom:2px;
+    margin-right:2px;
+    border-radius: 50%;
+    
+  }
+  
+  .mipart{
+    
+    background-color:rgb(0, 138, 230);
+    padding: 68px;
+    padding-bottom:13px;
+  
+    transform: skewY(2deg); 
+   
+    }
+ 
+
+    h2{
+        color:rgb(255, 255, 255);
+    }
+    .scrollpicup{
+        width:68px;
+        height:68px;
+        margin-left: 1190px;
+        margin-bottom: 10px;
+   
+    }
+    
+    .scrollpicdn{
+        width:68px;
+        height:68px;
+        margin-left: 1090px;
+        margin-bottom: 10px;
+        transform:rotate(180deg);
+    }
+    .achiv{
+     width: 250px;
+     height:250px;
+         
+
+    }
+
+    .ach:hover {
+        margin-top:30px;
+        background-color: rgb(0, 138, 230);
+        transform: skewY(2deg); 
+
+    }
+    li  {
+        display: block;
+        color: rgb(11, 118, 206));
+        text-align: center;
+        padding: 1em 2em;
+        text-decoration: none;
+        
+
+    }
+       .achivlist{
+            list-style-type: none;   margin: 0;
+            
+            overflow: hidden;
+            color:rgb(230, 237, 235);
+           background-color: rgb(230, 237, 235);
+            font-family: 'Changa', sans-serif;
+            border-top-left-radius: 40px; 
+            border-top-right-radius: 40px;
+       }
+
+    .midpart1{
+    
+        background-color:rgb(45, 46, 48);
+        padding: 68px;
+        margin-top:40px;
+        margin-bottom:40px;
+
+        padding-bottom:13px;
+        transform: skewY(2deg); 
+       }
+.black{
+    color:black;
+}
+    h1{
+        color: white;
+    }
+    .scrollpicup1{
+         width:68px;
+        height:68px;
+     
+    }
+    
+    .scrollpicdn1{
+        width:68px;
+        height:68px;
+        margin-right: 1090px;
+        transform:rotate(180deg);
+        margin-bottom: 10px;
+
+    }  
+    .footer{
+    color: white;
+    background-color:rgb(45, 46, 48);
+    border-top-right-radius: 90px; 
+    border-top-left-radius: 90px; 
+   transform: skew(-2deg); 
+  }
+    
+
+
+  
