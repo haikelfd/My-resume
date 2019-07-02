@@ -1,40 +1,45 @@
+.container{
+    width:1170px;/*for medium size screens*/
+    margin:auto;
+}
 
-ul {
-    list-style-type: none;   margin: 0;
-    padding: 10;
-    overflow: hidden;
-   background-color: rgb(0, 46, 77);
-    font-family: 'Changa', sans-serif;
-  }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1em 2em;
-    text-decoration: none;
-  }
-  .icon{
-     margin: 10;
-    padding: 13px 12px;
-    float: right;
-  }
-  li {
-    float: left;
-  }
-  li a:hover {
-    background-color: rgb(0, 138, 230);
-  }
-  .title1{
-   width:100%;
-   margin:0px;
-   padding-top:30px;
-   text-align:center;
-   background-color: rgb(0, 138, 230);
-    color: rgb(230, 237, 235);
-   border-bottom-right-radius: 90px;
-   border-bottom-left-radius: 90px;
+.clearfix{
+    clear:both;
+}
+ 
 
-  }
+.header .slider {
+  background:url("https://cdn.wallpapersafari.com/58/94/p4TJzZ.jpg") no-repeat center center;
+    -webkit-background-size:cover;/* CSS3 */
+    -moz-background-size:cover;/* CSS3 */
+    -o-background-size:cover;/* CSS3 */
+    padding-top:250px;
+    padding-bottom:250px;
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+}
+ 
+.header .slider h1{
+    font-size:3em;
+    margin:0;
+    display:inline-block;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-top:3px solid white;
+    border-bottom:3px solid white;
+}
+
+.header .slider a{
+    display:block;
+    padding:10px 20px;
+    border:3px solid white;
+    width:140px;
+    margin:40px auto 0;
+    font-size:1.2em;
+}
+
+.header .slider a:active{position:relative;top:1px}
   .part1{
    width: 100%;
    background-color: rgb(230, 237, 235);
@@ -43,38 +48,73 @@ ul {
    border-top-left-radius: 40px; 
    border-top-right-radius: 40px;
   }
+  .title1{
+ width:100%;
+ text-align:center;
+ background-color: #485355;
+ margin: 0px;
+ color: rgb(230, 237, 235);
+ border-bottom-right-radius: 90px;
+ border-bottom-left-radius: 90px;
+}
   .mypic{
    width:160px;
    height:160px;
    margin-top:15px;
    border-radius: 50%;
-  
   }
-  .pic2{
+     
+  .pic1{
+    margin:2% 0% 0% 0%;
     width:140px;
-    margin-bottom:2px;
-    margin-left:2px;
-    float: Middle; 
-  }
-  .pic3{
+    
+   }
+  .pic1:hover{
+    transform: scale(1.15);
+    transition: transform 2s;
+}
+ .label{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    margin-top: 11px;
+   margin-bottom: 4px;
+} 
+
+.pic2{
+     margin:2% 0% 0% 0%;
     width:150px;
-    margin-bottom:2px;
-    margin-right:2px;
     border-radius: 50%;
     
   }
-  
-  .mipart{
-    
-    background-color:rgb(0, 138, 230);
-    padding: 68px;
-    padding-bottom:13px;
-  
-    transform: skewY(2deg); 
-   
-    }
+  .pic2:hover{
+    transform: scale(1.15);
+    transition: transform 2s;
+   }
+    .pic3{ 
+     margin:20px 0% 0% 0%;
+    width:150px;
+    border-radius: 50%; 
  
+  }
+    .pic3:hover{
+       transform: scale(1.15);
+       transition: transform 2s;
+}
+    .ptitle{
+     margin-bottom:15%;
+     text-align: center;
+     padding: 1em 2em;
+     text-decoration: none; 
+}
 
+    .mipart{
+    
+        background :linear-gradient(-45deg,#004d80,#0099ff, #66c2ff, #ccebff);
+        padding: 68px;
+        padding-bottom:13px;
+        transform: skewY(2deg); 
+    }
     h2{
         color:rgb(255, 255, 255);
     }
@@ -94,8 +134,8 @@ ul {
         transform:rotate(180deg);
     }
     .achiv{
-     width: 250px;
-     height:250px;
+        width: 250px;
+        height:250px;
          
 
     }
@@ -106,24 +146,22 @@ ul {
         transform: skewY(2deg); 
 
     }
-    li  {
+    li {
         display: block;
         color: rgb(11, 118, 206));
         text-align: center;
         padding: 1em 2em;
         text-decoration: none;
-        
-
-    }
-       .achivlist{
-            list-style-type: none;   margin: 0;
-            
-            overflow: hidden;
-            color:rgb(230, 237, 235);
-           background-color: rgb(230, 237, 235);
-            font-family: 'Changa', sans-serif;
-            border-top-left-radius: 40px; 
-            border-top-right-radius: 40px;
+        }
+    .achivlist{
+        list-style-type: none;  
+        margin: 0;    
+        overflow: hidden;
+        color:rgb(230, 237, 235);
+        background-color: rgb(230, 237, 235);
+        font-family: 'Changa', sans-serif;
+        border-top-left-radius: 40px; 
+        border-top-right-radius: 40px;
        }
 
     .midpart1{
@@ -132,38 +170,206 @@ ul {
         padding: 68px;
         margin-top:40px;
         margin-bottom:40px;
-
         padding-bottom:13px;
         transform: skewY(2deg); 
        }
-.black{
-    color:black;
-}
+    .black{ 
+        color:black;
+    }
     h1{
         color: white;
     }
     .scrollpicup1{
-         width:68px;
+        position: absolute;
+        left:5em;
+        top:182em;
+        width:68px;
         height:68px;
      
     }
     
     .scrollpicdn1{
+        position: absolute;
         width:68px;
         height:68px;
-        margin-right: 1090px;
+        right:3em;
         transform:rotate(180deg);
         margin-bottom: 10px;
+        top:186em;
+    
+    }
+.pricing-table-wrapper{
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+} 
+.container{
+    width: 1170px;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}
+.col{
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 1;
+}
+.col:hover{
+     
+    transform: scale(1.1);
 
-    }  
-    .footer{
+}
+.card{
+    background: transparent;
+    color:#fff;
+    border-radius: 20px;
+    text-align: center;
+    height:100%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    cursor: pointer;
+    position: relative;
+}
+.bg-22{
+    background: linear-gradient(135deg, #0575E6,#00264d, #000d1a);
+    
+}
+ 
+.bg-1{
+    background: linear-gradient(135deg, #262626, #bfbfbf, #bfbfbf,#262626);
+    
+}
+.bg-2{
+    background: linear-gradient(135deg,#4d0000,#800000,#ff1a1a);
+    
+}
+.bg-et{
+    background: linear-gradient(135deg,#000000,#1a1a1a,#262626);
+    
+}
+.bg-bk{
+    background: linear-gradient(135deg,#4d0000,#800000,#e60000
+    ,#ff1a1a,#e60000);
+    
+} 
+.skillpart{   
+    background :linear-gradient(-45deg,#ff471a
+    ,#e62e00);
+    padding: 68px;
+    padding-bottom:13px;
+    padding: 68px;
+    margin-top:40px;
+    margin-bottom:40px;
+    padding-bottom:13px;
+    transform: skewX(2deg); 
+   }
+.achiv1{
+    width: 150px;
+    height:180px;
+
+}
+.maint{
+    width: 180px;
+    height:180px;  
+}        
+.footer
+{
     color: white;
     background-color:rgb(45, 46, 48);
     border-top-right-radius: 90px; 
     border-top-left-radius: 90px; 
-   transform: skew(-2deg); 
-  }
-    
+    transform: skew(-2deg); 
+}
+.footer{
+    background-color:#191E22;
+    text-align:center;
+    padding:20px 0;
+}
 
+.footer p{
+    text-align:center;
+    color:#4B5557;
+    text-transform:uppercase;
+    font-size:0.9em
+}
 
-  
+.footer ul{list-style:none;margin-left:0}
+
+.footer ul li{
+    display:inline-block;
+    width:24px;
+    height:24px;
+    padding:3px;
+    background-color:#485355;
+    border-radius: 50%;
+    margin-right:8px;
+    cursor:pointer
+}
+
+.footer ul li img{
+    width:90%;
+    height:90%;
+}
+
+.footer ul li:hover{
+    background-color:#4B5356;
+    opacity:0.5
+}
+
+/* End Footer*/
+
+/* Start My FrameWork */
+.my-title{
+    color:#263f70;
+    text-transform:uppercase;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+.snd-title{
+    text-transform:uppercase;
+    color:#115175;
+}
+
+.copy,q{
+    text-align:justify;
+    color:#ADADAD;
+    line-height:1.7
+}
+
+.green-btn{
+    background:none;
+    color:#3FC177;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding:15px 25px;
+    border:3px solid #3FC177;
+    cursor:pointer;
+}
+
+.green-btn:active{position:relative;top:2px;}
+
+h4{
+    color:#ADADAD;
+    text-transform:capitalize;
+}
+
+hr{
+    background-color:#E9E9E9;
+    margin-left:60px;
+    height:2px;
+    border:none;
+}
+/* End My FrameWork*/
